@@ -1,0 +1,247 @@
+/*---common css srart--*/
+*{
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	background-color: black;
+}
+
+.cs{
+	/*border: 2px solid red;*/
+	padding: 2% 0;
+}
+.cw{
+	/*border: 2px solid cyan;*/
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+p{
+	color: purple;
+}
+h2{
+	color: rgb(0, 116, 182);
+}
+p{
+	color: white;
+}
+a:hover{
+	color: rgb(0, 138, 255);
+}
+/*---common css srart--*/
+
+
+
+
+
+
+
+
+
+.top_button{
+	width: 20%;
+	float: right;
+}
+
+.top_button button{
+	padding:6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----header start---*/
+.header{
+	background-color: rgb(18, 27, 44);
+}
+.header_logo{
+	width: 15%;
+	/*border: 1px solid blue;*/
+	float: left;
+}
+.header img{
+	width: 100%;
+}
+.header_menu{
+	/*border: 1px solid black;*/
+	width: 80%;
+	float: right;
+	overflow: hidden;
+}
+.header ul{
+	float: right;
+
+}
+.header li{
+	float: left;
+	/*border: 1px solid black;*/
+	padding: 8% 20px;
+}
+.header a{
+	display: block;
+}
+
+/*----header end---*/
+
+
+
+
+
+
+
+
+
+/*----banneer start---*/
+.banner{
+	background-image: url("images/banner.jpg");
+	ba
+	min-height: 10px;
+}
+.banner_text{
+	padding-top: 10%;
+	width: 50%;
+}
+	
+.banner h1{
+	color: white;
+}
+.banner h2, h1, p, button{
+	margin: 3% 0;
+}
+.banner button{
+	padding: 4px;
+}
+
+/*----banneer end---*/
+
+
+
+
+
+/*----service start---*/
+.service{
+	background-color: rgb(18, 27, 44);
+}
+.box{
+	width: 27%;
+	float: left;
+	/*border: 1px solid blue;*/
+	padding: 0% 4.7%;
+
+}
+.service_up_box{
+	/*border: 1px solid green;*/
+	overflow: hidden;
+}
+.service_down_box{
+	order: 1px solid green;}
+
+.service_img_box{
+	width: 15%;
+	float: left;
+	/*border: 2px solid blue;*/
+}
+.service_text_box{
+	width: 65%;
+	float: left;
+	/*border: 2px solid blue;*/
+}
+.box img{
+	width: 100%;
+}
+.box h2{
+	color: rgb(0, 116, 182);
+}
+/*----service end---*/
+
+
+
+
+
+
+/*----contact start---*/
+.contact{
+	background-color: black;
+}
+.contact p, h2{
+	margin: 5px 0;
+
+}
+.part{
+	width: 27%;
+    float: left;
+    overflow: hidden;
+   padding: 0% 4.7%;
+}
+
+   /* part3 start  */
+   	.part_l{
+   		width: 30%;
+   		float: left;
+   	}
+   	.part_r{
+   		width: 50%;
+   		float: left;
+   	}
+   	.contact button{
+   		padding: 10%;
+   		font-size: 150%;
+   	}
+   	.contact img{
+   		width: 100%;
+   	}
+
+   /* part3 end  */
+/*----contact end---*/
+
+
+
+
+
+/*----footer start ----------*/
+footer{
+	background-color: rgb(18, 27, 44);;
+	color: white;
+	text-align: center;
+}
+.header p{
+	width: 15%;
+	margin: 2% 0;
+	padding: 0;
+	
+	float: left;
+}
+
+/*----footer end ----------*/
+
+.box{
+	transition: .3s;
+}
+.box:hover{
+	transform: scale(.8);
+}
+
+
+.part{
+	transition: .3s;
+}
+.part:hover{
+	transform: scale(.8);
+}
+
+
